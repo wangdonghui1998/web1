@@ -1,0 +1,37 @@
+body{
+	font-size:12px;
+	color: gray;
+	font-family: Arial;
+	line-height: 2em;
+	}
+a{
+	color:#727272;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.lanmu1 {
+	font-size: 14px;
+	color: white;
+	font-weight: bolder;
+}
+.lanmu2 a:hover{
+	color: #b9f605;
+	text-decoration: none;
+}
+.spcial{
+	color: #fdb306;
+}
+ul{
+	list-style-type: none;
+}
+.bg1{
+	background-image: url(../image/bg.gif);
+}
+.bg2{
+	background-image: url(../image/banner.jpg);
+}
+.bg3{
+	background-image: url(../image/foot_bg.gif);
+}

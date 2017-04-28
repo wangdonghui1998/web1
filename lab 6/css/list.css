@@ -1,0 +1,16 @@
+.ul1{
+	font-size: 14px
+}
+.ul2 a:hover{
+	color:#b9f605;
+	text-decoration: none;
+}
+.a{
+	list-style-type:disc; 
+}
+.b{
+	list-style-image: url(image/list.jpg);
+}
+.c{
+	list-style-image: url(../image/list.png);
+}
