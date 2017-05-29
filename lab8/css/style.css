@@ -1,0 +1,266 @@
+
+body{
+	font:12px  '宋体';
+	color: #522a06;
+	margin: 0px;
+	background-image: url(../images/bodybg.gif);
+}
+a{
+	text-decoration: none;	
+}
+a:link{
+	color: #522a06;
+}
+a:hover{
+	text-decoration: underline;
+}
+/*页头部分*/
+#header{	
+	background-image: url(../images/bg.gif);
+	height: 205px;
+	background-position: center top;
+	}
+#banner{
+	height: 164px;
+	width: 1000px;
+	position:relative;
+	left: 100px;
+}
+.logo{
+	position: absolute;
+	left: 38px;
+	top:25px;
+}
+#yellow{
+	color: #f9f603;
+}
+#nav{
+	background-image: url(../images/nav.jpg);
+	height: 40px;
+}
+.nav_body{
+	width: 1000px;
+	height: 40px;	
+}
+.nav_content{
+	width: 800px;
+	font-weight: bolder;
+	color: #fff;
+	position: relative;
+	left: 100px;
+	top: 12px;
+}
+.nav_content a:link{
+	color: #fff;
+}
+.nav_content a:hover{
+	text-decoration: none;
+	color: #f9f603;
+	height: 40px;
+}
+.text{
+	background-color: #f8f5ee;
+	width: 140px;
+	height: 19px;
+	position: relative;
+	left: 980px;
+	top: -5px;
+}
+.button{
+	width: 44px;
+	height: 21px;
+	color: #fff;
+	background-color: #000;
+	border: 1px soild #f8f5ee;
+	position: relative;
+	left: 930px;
+	top: -3px;
+}
+/*页面主体部分*/
+#content{
+	padding-top: 20px;
+	width: 1000px;
+	clear: both;
+	position: relative;
+	left: 135px;
+}
+#content_top{
+	overflow: hidden;
+}
+#news_pic{
+	background-image: url(../images/news_bg.png);
+	width: 324px;
+	height: 243px;
+	float: left;
+}
+.text2{
+	width: 300px;
+	height: 22px;
+	position: relative;
+	left: 80px;
+	top: 3px;
+}
+#news_list{
+	width: 330px;
+	margin-left: 38px;
+	float: left;
+	background-image: url(../images/change.png);
+	background-repeat: no-repeat;
+}
+.span{
+	float: right;
+}
+.right{
+	float: right;
+}
+#news_list li{
+	position: relative;
+	top: 30px; 
+	height: 30px;
+	margin-left:-30px; 
+}
+/*站内公告*/
+#news_announce{
+	width: 277px;
+	padding-top: 15px;
+	float: right;
+	background-image: url(../images/board.png); 
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.gonggao{
+	width: 285px;
+	height: 210px;
+	background-image: url(../images/board_bg.png);
+	float: right;
+	position: relative;
+	top: 10px;
+}
+.gonggao li{
+	margin-left:-25px; 
+	height: 30px;
+}
+#content_bottom_left{
+	width: 715px;
+	float: left;
+}
+/*学术争鸣*/
+.academic{
+	width: 340px;
+	height: 54px;
+	background-image: url(../images/academic.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.xueshu li{
+	width: 380px;
+	height: 20px;
+	float: left;
+	position: relative;
+	top: 20px;
+	left: -40px;
+}
+/*书坛新闻*/
+.book_news{
+	width: 340px;
+	margin-left: 25px;
+	background-image:url(../images/book_news.png);
+	height: 54px;
+	float: left;
+}
+/*燕赵风采*/
+.fengcai{
+	width: 710px;
+	height: 400px;
+	position: relative;
+	top: 150px;
+	clear: left;
+	background-image: url(../images/fengcai_bg1.png);
+	background-repeat: no-repeat;
+	position: relative;
+	left: -10px;
+}
+#fengcai{
+	background-image: url(../images/fengcai_bg2.png);
+	background-repeat: no-repeat;
+	position: relative;
+	top: 60px;
+	height: 136px;
+	padding: 20px;
+}
+#fengcai li{
+	position: relative;
+	top: -10px;
+	left: -40px;
+	display: inline;
+}
+#content_bottom_right{
+	width: 280px;
+	padding-top: 20px;
+	float: right;
+	position: relative;
+	top: 5px;
+	left: -40px
+}
+#bottom_img{
+	background-repeat: no-repeat;	
+	position: relative;
+	left: 100px; 
+}
+#bottom_content{
+	width: 362px;
+	height: 400px;
+	background-image: url(../images/show_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.mingjia{
+	position: relative;
+	left: 70px;
+	top: 35px;
+}
+.wenzi{
+	width: 250px;
+	height: 100px;
+	position: relative;
+	top: 50px;
+	left: 60px;
+	line-height: 25px;
+}
+.red{
+	color: red;
+	font-weight: bolder;
+}
+/*页脚部分*/
+.img_foot{
+	width: 80px;
+	position: relative;
+	left: 365px;
+	top: 75px;
+}
+#footer{
+	clear: both;
+	height: 105px;
+	width: 1000px;
+	position: relative;
+/*	top: 80px;*/
+	left: -240px;
+}
+.lianxi{
+	float: left;
+	position: relative;
+	top: -20px;
+	left: 650px;
+	font-weight:bolder;
+}
+.line{
+	position: relative;
+/*	top: -40px;*/
+	left: 160px;
+}
+.wenzi2{
+	position: relative;
+	top: 10px;
+	right: -480px;
+}

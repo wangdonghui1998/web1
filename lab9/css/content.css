@@ -1,0 +1,239 @@
+body{
+	font:12px  '宋体';
+	color: #522a06;
+	margin: 0px;
+	background-image: url(../images/bodybg.gif);
+}
+a{
+	text-decoration: none;	
+}
+a:link{
+	color: #522a06;
+}
+a:hover{
+	text-decoration: underline;
+}
+/*页头部分*/
+#header{	
+	background-image: url(../images/bg.gif);
+	height: 205px;
+	background-position: center top;
+	}
+#banner{
+	height: 164px;
+	width: 1000px;
+	position:relative;
+	left: 100px;
+}
+.logo{
+	position: absolute;
+	left: 38px;
+	top:25px;
+}
+#yellow{
+	color: #f9f603;
+}
+#nav{
+	background-image: url(../images/nav.jpg);
+	height: 40px;
+}
+.nav_body{
+	width: 1000px;
+	height: 40px;	
+}
+.nav_content{
+	width: 800px;
+	font-weight: bolder;
+	color: #fff;
+	position: relative;
+	left: 100px;
+	top: 12px;
+}
+.nav_content a:link{
+	color: #fff;
+}
+.nav_content a:hover{
+	text-decoration: none;
+	color: #f9f603;
+	height: 40px;
+}
+.text{
+	background-color: #f8f5ee;
+	width: 140px;
+	height: 19px;
+	position: relative;
+	left: 980px;
+	top: -5px;
+}
+.button{
+	width: 44px;
+	height: 21px;
+	color: #fff;
+	background-color: #000;
+	border: 1px soild #f8f5ee;
+	position: relative;
+	left: 930px;
+	top: -4px;
+}
+/*页面主体部分*/
+*{
+/*	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding:0px; */
+	font-family: '宋体';
+	list-style-type: none;
+}
+/*页面正文*/
+.zhengwen{
+	width: 1000px;
+	overflow: hidden;
+}
+.daohang{
+	width: 200px;
+	height: 40px;
+	padding-left: 43px;
+	position: relative;
+	left: 100px;
+	top: 10px;
+}
+
+/*页面正文左侧部分*/
+#left{
+	width: 700px;
+	float: left;
+	position: relative;
+	left: 100px;
+}
+.one_title{
+	font-size: 16px;
+	height: 45px;
+	text-align: center;
+	border-bottom: 1px solid #c9baa5;
+}
+.two_title{
+	font-size: 12px;
+	text-align: center;
+	color: #757575;
+	margin: 10px;
+}
+.second{
+	margin-top: 5px;
+	text-indent: 2em;
+	font-size: 14px;
+	border-bottom: 1px solid #c9baa5;
+}
+.img{
+	margin: 20px;
+}
+.third{
+	color: #844004;
+	font-size: 13px;
+	padding: 30px;
+}
+.lianjie{
+	margin-right: 40px;
+	color: #844004;
+	font-size: 13px;
+
+}
+/*页面正文右侧部分*/
+#right{
+	width: 280px;
+	float: left;
+	margin-left: 16px;
+	height: 220px;
+}
+.one{
+	border: 1px solid #c9baa5;
+	background-image: url("../images/bg.png");
+	margin-bottom: 20px;
+	position: relative;
+	left: 130px;
+}
+.gengxin{
+	margin-bottom: 10px;
+	align: center;
+	position: relative;
+	left: 30px;
+}
+.liebiao li{
+	height: 30px;
+	margin-left: 13px;
+	position: relative;
+	left: -20px;
+}
+.two{
+	width: 280px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.mingjia{
+	margin-top: 25px;
+	margin-bottom: 15px;
+	align:center;
+	position: relative;
+	left: 200px;
+}
+.down{
+	height: 362px;
+	float: left;
+	position: relative;
+	left: 130px;
+}
+.img_mingjia{
+	margin-left: 25px;
+	margin-top: 25px;
+	position: relative;
+	left: 130px;
+	top: -365px;
+	float:left; 
+}
+.text2{
+	margin-left: 25px;
+	margin-top: 15px;
+	margin-right: 30px;
+	line-height: 20px;
+	position: relative;
+	left: 130px;
+	top: -365px;
+	float: left;
+	width: 220px;
+}
+.name{
+	font-weight: bold;
+	color: #b70000;
+}
+/*页脚部分*/
+.img_foot{
+	width: 80px;
+	position: relative;
+	left: 355px;
+	top: 30px;
+}
+#footer{
+	clear: both;
+	height: 105px;
+	width: 1000px;
+	position: relative;
+	top: 0px;
+	left: -240px;
+}
+.lianxi{
+	float: left;
+	position: relative;
+	top: -70px;
+	left: 650px;
+	font-weight:bolder;
+}
+.line{
+	position: relative;
+	top: -50px;
+	left: 160px;
+}
+.wenzi2{
+	position: relative;
+	top: -40px;
+	right: -480px;
+}
