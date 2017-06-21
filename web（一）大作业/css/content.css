@@ -1,0 +1,113 @@
+
+/*页头部分*/
+#logo{
+	height: 80px;
+}
+#mbx{
+	color: gray;
+	height: 35px;
+	font-size: 14px;
+}
+.mbx{
+	color: gray;
+	text-decoration: none;
+}
+.mbx:hover{
+	color: #7bcdc9;
+	text-decoration:underline; 
+}
+
+.title{
+	position: relative;
+	left: 450px;
+	font-size: 25px;
+	color:gray;
+}
+.year{
+	position: relative;
+	left: 670px;
+}
+.cang{
+	position: relative;
+	left: 790px;
+}
+/*页面主体部分*/
+#zuozhe{
+	float: left;
+	width: 240px;
+	height: 320px;
+	padding: 20px;
+	background-image: url(../images/show_bg.png);
+	position: relative;
+	left: 20px;
+	top: 45px; 
+}
+.zuozhe{
+	font-size: 20px;
+	color: red;
+}
+.words{
+	font-size: 14px;
+	line-height: 27px;
+	text-indent: 2em;
+}
+#img{
+	float: left;
+	position: relative;
+	left: -120px;
+}
+.lasa{
+	width: 700px;
+	position: relative;
+	left: 250px;
+}
+.lasa:hover{
+	opacity: 0.5;
+}
+.jiaoliu{
+	float: left;
+	color: orange;
+	position: relative;
+	top: 2080px;
+	left: -780px;
+}
+.text{
+	position: relative;
+	left: 200px;
+	top: 30px;
+	width: 900px;
+	height: 100px;
+	float: left;
+}
+/*页尾部分*/
+#yewei{
+	float: left;
+	width: 1262px;
+	height: 150px;
+	background-image: url(../images/ban.png);	
+	position: relative;
+	left: -7px;
+	top: 60px;
+}
+.lianxi ul li{
+	list-style: none;
+	text-align: center;
+	display: inline;
+	color: #D3D3D3;
+	position: relative;
+	left: 350px;
+}
+.lianxi ul li a{
+	color: #808080;
+	text-decoration: none;
+	font-size: 12px;
+}
+.wenzi{
+	float: left;
+	line-height: 20px;
+	color: #808080;
+	font-size: 11px;
+	position: relative;
+	top: 10px;
+	right: -490px;
+}

@@ -1,0 +1,157 @@
+/*页头部分*/
+.banner_1{
+	float: left;
+	position: relative;
+	left: -5px;
+}
+.banner{
+	float: left;
+	position: relative;
+	right:-220px;
+	top:-289px;
+}
+#logo{
+	height: 80px;
+}
+#mbx{
+	color: gray;
+	height: 35px;
+	font-size: 14px;
+	float: left;
+	position: relative;
+	left: -790px;
+}
+.mbx{
+	color: gray;
+	text-decoration: none;
+}
+.mbx:hover{
+	color: #7bcdc9;
+	text-decoration:underline; 
+}
+/*页面主体部分*/
+#all{
+	float: left;
+	position: relative;
+	left: 40px;
+	top: -230px;
+}
+.josef{
+	color: black;
+	text-decoration: none;
+}
+.josef:hover{
+	color: #66A8FF;
+}
+.img{
+	width: 170px;
+	margin: 5px;
+}
+.img:hover{
+	opacity: 0.5;
+}
+#redu{
+	float: left;
+	width: 1250px;
+	position: relative;
+	top: -170px;
+	background-image: url(../images/yewei.jpg);
+	background-repeat: no-repeat;
+}
+
+.redu{
+	float: left;
+	position: relative;
+	left: 100px;
+	color: red;
+	font-size: 25px;
+
+}
+.content{
+	float: left;
+/*	background-image: url(../images/yewei.jpg);
+	background-repeat: no-repeat;*/
+	width: 1200px;
+	position: relative;
+	top: 0px;
+}
+.author{
+	float: left;
+	height: 70px;
+	width: 800px;
+	position: relative;
+	left: 200px;
+	top: 25px;
+	color: black;
+}
+.author a{
+	color: black;
+	text-decoration: none;
+}
+.author a:hover{
+	color: gray;
+	text-decoration: underline;
+}
+
+#yema{
+	color: black;
+	float: left;
+	position: relative;
+	left: 290px;
+	top: -100px;
+}
+.num{
+	color: black;
+}
+.yema li{
+	color: black;
+	display: inline;
+	border: 1px solid black;
+	margin-right: 30px;
+}
+.num:link{
+	padding-left: 8px;
+	padding-right: 8px;
+	color: black;
+	text-decoration: none;
+}
+.num:hover{
+	padding-left: 8px;
+	padding-right: 8px;
+	display:inline-block;
+	background-color: #7bcdc9;
+	color: white;
+	text-decoration: none;
+}
+
+/*页尾部分*/
+#yewei{
+	float: left;
+	position: relative;
+	left: -8px;
+	width: 1263px;
+	height: 150px;
+	background-image: url(../images/ban.png);	
+}
+.lianxi ul li{
+	list-style: none;
+	text-align: center;
+	display: inline;
+	color: #D3D3D3;
+	position: relative;
+	left: 350px;
+}
+.lianxi ul li a{
+	color: #808080;
+	text-decoration: none;
+	font-size: 12px;
+}
+.wenzi{
+	float: left;
+	line-height: 20px;
+	color: #808080;
+	font-size: 11px;
+	position: relative;
+	top: 10px;
+	right: -490px;
+}

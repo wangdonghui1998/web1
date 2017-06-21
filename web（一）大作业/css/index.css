@@ -1,0 +1,247 @@
+#logo{
+	float: left;
+	position: relative;
+	left: 150px;
+}
+#search{
+	float: left;
+}
+.text{
+	width: 500px;
+	height: 30px;
+	border: 2px solid #707070;
+	position: relative;
+	top: 8px;
+}
+.button{
+	position: relative;
+	left: -5px;
+	top: 10px;
+	padding: 6px;
+	width: 80px;
+	border: 2px solid #707070;
+	background-color: #707070;
+	color: white;
+	font-size: 16px;
+}
+#daohang{
+	float: left;
+	position: relative;
+	left: 150px;
+}
+.daohang{
+	list-style: none;
+	float: left;
+	width: 120px;
+	text-align: center;
+	font-size: 18px;
+	height: 30px;
+	color: black;
+	position: relative;
+	top: -6px;
+	left: 3px;
+}
+.daohang a:link{
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+}
+.daohang a:hover{
+	background-color:#7bcdc9;
+	color: white;
+	text-align: center;
+}
+.daohang a:visited{
+	color: black;
+}
+.banner_1{
+	float: left;
+	position: relative;
+	left: -5px;
+}
+.banner{
+	float: left;
+	position: relative;
+	right:-220px;
+	top:-289px;
+}
+#nav{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#toutiao{
+	float: left;
+}
+.img_1{
+	position: relative;
+	left: -350px;
+	top: 5px;
+}
+.tt{
+	position: relative;
+	left: -580px;
+}
+.op_1:link{
+	opacity: 1;
+}
+.op_1:hover{
+	opacity: 0.5;
+}
+.toutiao{
+	position: relative;
+	left: -380px;
+	top: -160px;
+}
+.toutiao ul li{
+	color: gray;
+}
+.toutiao ul li a:link{
+	font-size: 14px;
+	height: 30px;
+	text-decoration: none;
+	color: gray;
+}
+.toutiao ul li a:hover{
+	text-decoration: underline;
+}
+.toutiao ul li a:visited{
+	color: gray;
+}
+#denglu{
+	padding: 37px;
+	float: left;
+	position: relative;
+	top: -360px;
+	left: 623px;
+	border: 1px solid black;
+	background-image: url(../images/ban.png);
+}
+#qicai{
+	float: left;
+}
+.img_2{
+	position: relative;
+	left: 50px;
+	top: -130px;
+}
+.qq{
+	position: relative;
+	left: -175px;
+	top: -115px;
+}
+.qicai{
+	position: relative;
+	left: 25px;
+	top: -270px;
+}
+.qicai ul li{
+	color: gray;
+}
+.qicai ul li a:link{
+	font-size: 14px;
+	height: 30px;
+	text-decoration: none;
+	color: gray;
+}
+.qicai ul li a:hover{
+	text-decoration: underline;
+}
+.qicai ul li a:visited{
+	color: gray;
+}
+
+#luntan{
+	float: left;
+}
+.img_3{
+	position: relative;
+	right: -260px;
+	top: -130px;
+}
+.qianshui{
+	position: relative;
+	right: -50px;
+	top: -130px;
+}
+.luntan{
+	position: relative;
+	right:-240px;
+	top: -290px;
+}
+.luntan ul li{
+	color: gray;
+}
+.luntan ul li a:link{
+	font-size: 14px;
+	height: 30px;
+	text-decoration: none;
+	color: gray;
+}
+.luntan ul li a:hover{
+	text-decoration: underline;
+}
+.luntan ul li a:visited{
+	color: gray;
+}
+.zuopin{
+	height: 50px;
+	float: left;
+	position: relative;
+	left: 120px;
+	top: -240px;
+}
+.img_4{
+	float: left;
+	position: relative;
+	top: 85px;
+	left: -560px;
+}
+.img{
+	border: 1px solid black;
+	padding: 7px;
+	margin: 15px;
+}
+.img:link{
+	opacity: 1;
+}
+.img:hover{
+	opacity: 0.5;
+}
+
+#yewei{
+	float: left;
+}
+#yewei{
+	width: 1255px;
+	height: 150px;
+	background-image: url(../images/ban.png);	
+}
+.lianxi ul li{
+	list-style: none;
+	text-align: center;
+	display: inline;
+	color: #D3D3D3;
+	position: relative;
+	left: 350px;
+}
+.lianxi ul li a{
+	color: #808080;
+	text-decoration: none;
+	font-size: 12px;
+}
+.wenzi{
+	float: left;
+	line-height: 20px;
+	color: #808080;
+	font-size: 11px;
+	position: relative;
+	top: 10px;
+	right: -490px;
+}
+.title a:link{
+	
+}
+.title a:hover{
+	text-decoration: underline;
+}
